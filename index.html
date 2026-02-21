@@ -1092,9 +1092,9 @@ const sb = document.getElementById('skill-bars');
 if(sb) so.observe(sb);
 
 // ── ADMIN ──
-let isAdmin = true, curPid = null;
+let isAdmin = false, curPid = null;
 
-function toggleAdmin() { isAdmin ? exitAdmin() : enterAdmin(); }
+function toggleAdmin() { return; }
 
 function enterAdmin() {
   isAdmin = true;
