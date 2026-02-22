@@ -795,7 +795,7 @@ footer {
   <div class="hero-right rv d1">
     <div class="hero-photo-wrap">
       <div class="ph hero-photo" data-pid="hero" onclick="openPhotoModal('hero')">
-        <img id="img-hero" alt="Evans Onyango">
+        <img id="img-hero" src="https://raw.githubusercontent.com/onyiva177-dev/Portfolio/blob/df9c282a2bfd302b96c9523f043de81255b286ee/WhatsApp%20Image%202026-02-22%20at%2021.23.04.jpeg" class="loaded" alt="Evans Onyango">
         <span class="ph-icon">👤</span>
         <span class="ph-lbl">Your Photo Here</span>
         <button class="ph-btn">+ Upload Photo</button>
@@ -811,7 +811,7 @@ footer {
 <section id="about">
   <div class="about-photo-wrap rv">
     <div class="ph about-photo" data-pid="about" onclick="openPhotoModal('about')">
-      <img id="img-about" src="https://raw.githubusercontent.com/onyiva177-dev/Portfolio/main/WhatsApp%20Image%202026-02-22%20at%2021.23.04.jpeg" class="loaded" alt="About Evans">
+      <img id="img-about" src="https://raw.githubusercontent.com/onyiva177-dev/Portfolio/blob/df9c282a2bfd302b96c9523f043de81255b286ee/WhatsApp%20Image%202026-02-22%20at%2021.23.04%20(1).jpeg" class="loaded" alt="About Evans">
       <span class="ph-icon">📸</span>
       <span class="ph-lbl">About Photo</span>
       <button class="ph-btn">+ Upload</button>
@@ -900,7 +900,7 @@ footer {
     </div>
     <div class="rv d1">
       <div class="ph skills-photo" data-pid="skills" onclick="openPhotoModal('skills')">
-        <img id="img-skills" alt="Skills">
+        <img id="img-skills" src="https://raw.githubusercontent.com/onyiva177-dev/Portfolio/blob/df9c282a2bfd302b96c9523f043de81255b286ee/WhatsApp%20Image%202026-02-22%20at%2021.23.03.jpeg" class="loaded" alt="Skills">
         <span class="ph-icon">📐</span>
         <span class="ph-lbl">Work / Skills Photo</span>
         <button class="ph-btn">+ Upload</button>
@@ -1094,7 +1094,7 @@ if(sb) so.observe(sb);
 // ── ADMIN ──
 let isAdmin = false, curPid = null;
 
-function toggleAdmin() { isAdmin ? exitAdmin() : enterAdmin(); }
+function toggleAdmin() { return; }
 
 function enterAdmin() {
   isAdmin = true;
