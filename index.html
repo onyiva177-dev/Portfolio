@@ -1094,7 +1094,7 @@ if(sb) so.observe(sb);
 // ── ADMIN ──
 let isAdmin = false, curPid = null;
 
-function toggleAdmin() { return; }
+function toggleAdmin() { isAdmin ? exitAdmin() : enterAdmin(); }
 
 function enterAdmin() {
   isAdmin = true;
